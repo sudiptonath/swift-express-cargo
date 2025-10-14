@@ -1,0 +1,335 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+        --color-clifford: #da373d;
+        --color-gfirst: #6DA015;
+        --color-gsecond:#46C0A2;
+        --color-cf:rgba(109, 160, 21, 0.05) ;
+        --color-cs:rgba(70, 192, 162, 0.05) ;
+        --color-gray:#606060;
+                }
+    </style>
+    <script src="https://kit.fontawesome.com/3235389376.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="bg-[url('./asset/banner-2.png')] text-white">
+        <div class="backdrop-blur-[8px] bg-white/10 sticky top-0">
+            <nav class="container mx-auto flex justify-between items-center py-5 ">
+                <div>
+                    <img class="w-20" src="./asset/logo.png" alt="">
+                </div>
+                <div class="flex gap-5 ">
+                    <a href="index.html">
+                        <p class="hover:text-gfirst">Home</p>
+                    </a>
+                    <a href="service.html">
+                        <p>Services</p>
+                    </a>
+                    <a href="#">
+                        <p>About Us</p>
+                    </a>
+                    <a href="#">
+                        <p>Rates</p>
+                    </a>
+                    <a href="#">
+                        <p>Cost Calculator</p>
+                    </a>
+                    <a href="#">
+                        <p>Benefits</p>
+                    </a>
+                </div>
+                <div class="flex gap-5">
+                    <!-- <button class="px-8 py-2 bg-blue  rounded-md border border-transparent hover:bg-transparent border-1 
+          hover:text-blue hover:text-blue ease-in duration-300 cursor-pointer">Sign Up</button> -->
+                    <button
+                        class="bg-gradient-to-r from-gfirst to-gsecond px-6 rounded-3xl py-2 text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">Sign
+                        Up</button>
+                    <button
+                        class="bg-gradient-to-r from-gfirst to-gsecond px-6 rounded-3xl py-2 text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">Sign
+                        In</button>
+                </div>
+            </nav>
+        </div>
+        <!-- Banner-------------- -->
+        <div class="container mx-auto text-center py-36 space-y-5">
+            <h1 class="text-5xl font-bold ">Our Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Congue lacinia <br> tempor orci tellus sollicitudin morbi. Duis
+                massa
+                sit
+            </p>
+        </div>
+
+    </header>
+    <main>
+        <section class="container mx-auto text-center my-10">
+            <h1 class="text-4xl font-semibold mb-3">Why Choose Us</h1>
+            <p class="text-gray">Lorem ipsum dolor sit amet consectetur. Congue lacinia <br>
+                tempor orci tellus sollicitudin morbi. Duis </p>
+            <div class="grid grid-cols-3 mt-10 gap-3 text-gray ">
+                <!-- ---------- -->
+                <div
+                    class="p-3 text-center bg-gradient-to-r from-cf to-cs shadow-lg rounded-md flex flex-col items-center justify-center border-1 border-lime-200 space-y-3">
+                    <img src="./asset/S1.png" alt="">
+                    <h3 class="text-2xl font-semibold ">US Shipping</h3>
+                    <h4 class="text-lg font-semibold">Ship from door to door in Barbados</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu
+                        egestas
+                    </p>
+                    <button
+                        class="bg-gradient-to-r from-gfirst to-gsecond bg-clip-text border-gfirst text-transparent border px-6 rounded-3xl py-2 cursor-pointer">
+                        Track Now
+                    </button>
+
+                </div>
+                <div
+                    class="p-3 text-center bg-gradient-to-r from-cf to-cs shadow-lg rounded-md flex flex-col items-center justify-center border-1 border-lime-200 space-y-3">
+                    <img src="./asset/S2.png" alt="">
+                    <h3 class="text-2xl font-semibold ">Local Shipping</h3>
+                    <h4 class="text-lg font-semibold">Ship from door to door in Barbados</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu
+                        egestas
+                    </p>
+                    <button
+                        class="bg-gradient-to-r from-gfirst to-gsecond px-6 rounded-3xl py-2 text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">Track
+                        Now</button>
+                </div>
+                <div
+                    class="p-3 text-center bg-gradient-to-r from-cf to-cs shadow-lg rounded-md flex flex-col items-center justify-center border-1 border-lime-200 space-y-3">
+                    <img src="./asset/S3.png" alt="">
+                    <h3 class="text-2xl font-semibold">Regional Shipping</h3>
+                    <h4 class="text-lg font-semibold">Ship from door to door in Barbados</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu
+                        egestas
+                    </p>
+                    <button
+                        class="bg-gradient-to-r from-gfirst to-gsecond bg-clip-text border-gfirst text-transparent border px-6 rounded-3xl py-2 cursor-pointer">
+                        Track Now
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <!--  -->
+        <section class="container mx-auto  my-10">
+      <h1 class="text-3xl font-semibold text-center">How It Work</h1>
+      <p class="text-gray text-center">Lorem ipsum dolor sit amet consectetur. Congue lacinia <br>
+        tempor orci tellus sollicitudin morbi. Duis </p>
+      <!--  -->
+      <div class="flex justify-between items-center mt-6">
+        <!--  -->
+        <div class="flex flex-col gap-3 text-gray">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-20 h-20 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white">
+              <p class="text-5xl">1.</p>
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold hover:text-gfirst cursor-pointer">Free Sign Up</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non libero, est sunt <br> quidem consequatur
+                reiciendis. Eaque temporibus sequi unde nostrum?</p>
+            </div>
+          </div>
+          <hr>
+          <div class="flex items-center gap-3">
+            <div
+              class="w-20 h-20 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white">
+              <p class="text-5xl">2.</p>
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold hover:text-gfirst cursor-pointer">Shop online </h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non libero, est sunt <br> quidem consequatur
+                reiciendis. Eaque temporibus sequi unde nostrum?</p>
+            </div>
+          </div>
+          <hr>
+          <div class="flex items-center gap-3">
+            <div
+              class="w-20 h-20 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white">
+              <p class="text-5xl">3.</p>
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold hover:text-gfirst cursor-pointer">Receive or pick up your packages</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non libero, est sunt <br> quidem consequatur
+                reiciendis. Eaque temporibus sequi unde nostrum?</p>
+            </div>
+          </div>
+          <hr class="">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-20 h-20 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white">
+              <p class="text-5xl">4.</p>
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold hover:text-gfirst cursor-pointer">Tips for you!</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non libero, est sunt <br> quidem consequatur
+                reiciendis. Eaque temporibus sequi unde nostrum?</p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div><img src="./asset/image (1).png" alt="" class="w-80"></div>
+      </div>
+    </section>
+        <!--  -->
+    <section class="container mx-auto my-16">
+      <div class="text-center space-y-3 mb-7">
+        <h1 class="text-3xl font-semibold ">Frequently asked question</h1>
+        <p class="text-gray">Lorem ipsum dolor sit amet consectetur. Congue lacinia <br>
+          tempor orci tellus sollicitudin morbi. Duis </p>
+      </div>
+      <!--  -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+        <div class="flex flex-col gap-3">
+          <div tabindex="0"
+            class="collapse collapse-plus   border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col gap-3">
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <div tabindex="0"
+            class="collapse collapse-plus bg-base-100 border-base-300 border  bg-gradient-to-r from-cf to-cs shadow-lg rounded-md  border-lime-200">
+            <div class="collapse-title font-semibold">Lorem ipsum dolor sit amet?</div>
+            <div class="collapse-content text-sm">
+              Orthosphere is an AI-powered health assistant offering personalized care, smart doctor consultations, and
+              lab test insights to support your health decisions.
+            </div>
+          </div>
+          <!--  -->
+        </div>
+
+      </div>
+    </section>
+    <!--  -->
+    <section
+      class="container mx-auto text-center py-20 my-20 bg-gradient-to-r from-gfirst to-gsecond text-white space-y-3 rounded-4xl">
+      <h1 class="text-4xl font-bold">Hassle-Free Shipping, Every Time</h1>
+      <p>Increeva-se em nossa newsletter e tenha acesso exclusivo a conteudos educacionais,dicas de <br>aprendizado de
+        idiomas,atulizacoes sobre novos cursos e promocoes especiais</p>
+      <button class="px-6 py-1 bg-blue-900 font-semibold border-1 border-black rounded-2xl border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">Sign Up For Free</button>
+
+    </section>
+    <!--  -->
+
+    </main>
+     <footer class=" text-white bg-blue-900 ">
+    <div class="container mx-auto grid grid-cols-3  gap-3 py-10 space-y-2">
+      <div>
+        <img src="./asset/logo.png" alt="" class="mb-2">
+        <p>Lorem ipsum dolor sit amet consectetur. Neque consequat tristique bibendum facilisis odio congue enim. Tempor
+          justo proin faucibus praesent ac. Dui nunc sit aliquam eget adipiscing feugiat turpis. Ut eleifend blandit
+          suspendisse sollicitudin amet dictum mauris.</p>
+      </div>
+      <!--  -->
+      <div class="flex justify-around ">
+        <div class="space-y-2">
+          <h2 class="text-lg text-gfirst mb-2">Support</h2>
+          <p>FAQ</p>
+          <p>Return & Exchange</p>
+          <p>Shipping</p>
+          <p>Brand</p>
+          <p>Review</p>
+          <p>Help</p>
+        </div>
+        <!--  -->
+        <div class="space-y-2">
+          <h2 class="text-lg text-gfirst mb-2">Company</h2>
+          <p>Service</p>
+          <p>Restricted Items</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Blog</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="space-y-2">
+        <h2 class="text-lg text-gfirst mb-2">Join a Newsletter</h2>
+        <p>Your Email</p>
+        <div class="border-1 border-gsecond items-center p-1 bg-white w-full mx-auto rounded-full flex justify-between">
+          <input class="border-none pl-4 text-black" type="text" name="" id="" placeholder="Your email address">
+          <button class="bg-gradient-to-r from-gfirst to-gsecond px-6 rounded-3xl py-2 text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">Subscribe</button>
+        </div>
+
+        <div class="flex gap-3">
+          <div
+            class="w-10 h-10 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">
+            <i class="fa-brands fa-facebook-f text-lg"></i>
+          </div>
+          <div
+            class="w-10 h-10 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div
+            class="w-10 h-10 rounded-full bg-gradient-to-r from-gfirst to-gsecond flex items-center justify-center text-white border-1 border-transparent hover:bg-none hover:bg-transparent hover:border-gsecond ease-in duration-300 cursor-pointer hover:text-gsecond">
+            <i class="fa-brands fa-twitter "></i>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
